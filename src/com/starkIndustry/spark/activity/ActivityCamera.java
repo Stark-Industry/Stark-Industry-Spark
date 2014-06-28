@@ -39,12 +39,14 @@ public class ActivityCamera extends Activity implements OnClickListener {
 		setContentView(R.layout.activity_camera);
 		findViewById(R.id.button_no_filter).setOnClickListener(this);
 		findViewById(R.id.button_whiten_filter).setOnClickListener(this);
+		findViewById(R.id.img_switch_camera).setOnClickListener(this);
 		
 		 mGPUImage = new GPUImage(this);
 	     mGPUImage.setGLSurfaceView((GLSurfaceView) findViewById(R.id.surfaceView));
 		
 	     mCameraHelper = new CameraHelper(this);
 	     mCamera = new CameraLoader();
+	     
 	}
 	
     @Override
@@ -87,10 +89,10 @@ public class ActivityCamera extends Activity implements OnClickListener {
     
 	
     private class CameraLoader {
-        private int mCurrentCameraId = 0;
+        private int mCurrentCameraId = 1;
         private Camera mCameraInstance;
-
-        public void onResume() {
+     
+		public void onResume() {
             setUpCamera(mCurrentCameraId);
         }
 
