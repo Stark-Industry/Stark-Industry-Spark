@@ -12,14 +12,17 @@
 
     <!-- For images from picasa -->
     <uses-permission android:name="android.permission.INTERNET" />
-    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar" >
          <activity
-            android:name=".activity.ActivityCamera" >
+            android:name=".activity.ActivityLogin" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +30,22 @@
             </intent-filter>
             
         </activity>
-      
+      <activity
+            android:name=".activity.FormClient"
+            android:label="@string/app_name" >          
+        </activity>
+        <activity
+            android:name=".activity.ActivityFriendsList"
+            android:label="@string/app_name" >          
+        </activity>
+        <activity
+            android:name=".activity.ActivityChat"
+            android:label="@string/app_name" >          
+        </activity>
+        <activity
+            android:name=".activity.ActivityRegister"
+            android:label="@string/app_name" >          
+        </activity>
     </application>
 
 </manifest>

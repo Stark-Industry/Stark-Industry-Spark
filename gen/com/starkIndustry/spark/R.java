@@ -11,19 +11,62 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int ic_switch_camera=0x7f020001;
+        public static final int chat_paopao=0x7f020000;
+        public static final int folder=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int ic_switch_camera=0x7f020003;
+        public static final int incoming=0x7f020004;
+        public static final int outgoing=0x7f020005;
     }
     public static final class id {
+        public static final int ItemImage=0x7f06001c;
+        public static final int ItemText=0x7f06001e;
+        public static final int ItemTitle=0x7f06001d;
+        public static final int ListView01=0x7f06001b;
         public static final int bar=0x7f060001;
         public static final int button_capture=0x7f060005;
         public static final int button_no_filter=0x7f060003;
         public static final int button_whiten_filter=0x7f060004;
+        public static final int chatSuggest=0x7f06001f;
+        public static final int formclient_btattach=0x7f060009;
+        public static final int formclient_btsend=0x7f060008;
+        public static final int formclient_listview=0x7f060006;
+        public static final int formclient_row_date=0x7f060018;
+        public static final int formclient_row_msg=0x7f060019;
+        public static final int formclient_row_userid=0x7f060017;
+        public static final int formclient_text=0x7f060007;
+        public static final int formlogin_btcancel=0x7f060014;
+        public static final int formlogin_btsubmit=0x7f060013;
+        public static final int formlogin_layout1=0x7f06000a;
+        public static final int formlogin_layout2=0x7f06000d;
+        public static final int formlogin_pb=0x7f06000b;
+        public static final int formlogin_pwd=0x7f060012;
+        public static final int formlogin_pwd_confirm=0x7f060016;
+        public static final int formlogin_register=0x7f060015;
+        public static final int formlogin_tv_login=0x7f06000c;
+        public static final int formlogin_tv_pwd=0x7f060011;
+        public static final int formlogin_tv_system=0x7f06000e;
+        public static final int formlogin_tv_userid=0x7f06000f;
+        public static final int formlogin_userid=0x7f060010;
+        public static final int frmfiles_icon=0x7f060022;
+        public static final int frmfiles_listview=0x7f060021;
+        public static final int frmfiles_name=0x7f060023;
         public static final int img_switch_camera=0x7f060002;
+        public static final int linearLayout1=0x7f060020;
         public static final int surfaceView=0x7f060000;
+        public static final int textView1=0x7f06001a;
     }
     public static final class layout {
         public static final int activity_camera=0x7f030000;
+        public static final int activity_chat=0x7f030001;
+        public static final int activity_login=0x7f030002;
+        public static final int activity_register=0x7f030003;
+        public static final int formclient_chat_in=0x7f030004;
+        public static final int formclient_chat_out=0x7f030005;
+        public static final int formfriend_list=0x7f030006;
+        public static final int friend_adapter=0x7f030007;
+        public static final int frmfiles=0x7f030008;
+        public static final int frmfiles_row=0x7f030009;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
